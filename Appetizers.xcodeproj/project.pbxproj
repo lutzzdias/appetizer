@@ -15,6 +15,7 @@
 		491EEF402B22526900CD4B7B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF3F2B22526900CD4B7B /* AccountView.swift */; };
 		491EEF422B22527000CD4B7B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF412B22527000CD4B7B /* OrderView.swift */; };
 		491EEF442B2256C100CD4B7B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF432B2256C100CD4B7B /* Appetizer.swift */; };
+		491EEF462B225E1500CD4B7B /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF452B225E1500CD4B7B /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		491EEF3F2B22526900CD4B7B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		491EEF412B22527000CD4B7B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		491EEF432B2256C100CD4B7B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		491EEF452B225E1500CD4B7B /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				491EEF432B2256C100CD4B7B /* Appetizer.swift */,
 				491EEF332B2251FF00CD4B7B /* Assets.xcassets */,
 				491EEF352B2251FF00CD4B7B /* Preview Content */,
+				491EEF452B225E1500CD4B7B /* AppetizerListCell.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491EEF442B2256C100CD4B7B /* Appetizer.swift in Sources */,
+				491EEF462B225E1500CD4B7B /* AppetizerListCell.swift in Sources */,
 				491EEF402B22526900CD4B7B /* AccountView.swift in Sources */,
 				491EEF322B2251FE00CD4B7B /* AppetizerTabView.swift in Sources */,
 				491EEF302B2251FE00CD4B7B /* AppetizersApp.swift in Sources */,
