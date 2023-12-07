@@ -22,6 +22,7 @@
 		491EEF4E2B22689C00CD4B7B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF4D2B22689C00CD4B7B /* Alert.swift */; };
 		491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF4F2B226C8200CD4B7B /* LoadingView.swift */; };
 		491EEF522B22723900CD4B7B /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF512B22723900CD4B7B /* RemoteImage.swift */; };
+		491EEF612B22784C00CD4B7B /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF602B22784C00CD4B7B /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		491EEF4D2B22689C00CD4B7B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		491EEF4F2B226C8200CD4B7B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		491EEF512B22723900CD4B7B /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		491EEF602B22784C00CD4B7B /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				491EEF4B2B22661D00CD4B7B /* AppetizerListViewModel.swift */,
 				491EEF3D2B22526100CD4B7B /* AppetizerListView.swift */,
+				491EEF602B22784C00CD4B7B /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */,
 				491EEF522B22723900CD4B7B /* RemoteImage.swift in Sources */,
 				491EEF322B2251FE00CD4B7B /* AppetizerTabView.swift in Sources */,
+				491EEF612B22784C00CD4B7B /* AppetizerDetailView.swift in Sources */,
 				491EEF482B225F0500CD4B7B /* NetworkManager.swift in Sources */,
 				491EEF302B2251FE00CD4B7B /* AppetizersApp.swift in Sources */,
 				491EEF4E2B22689C00CD4B7B /* Alert.swift in Sources */,
