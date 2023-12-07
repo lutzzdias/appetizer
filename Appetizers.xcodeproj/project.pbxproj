@@ -27,6 +27,7 @@
 		491EEF662B22806900CD4B7B /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF652B22806900CD4B7B /* XDismissButton.swift */; };
 		491EEF682B22879200CD4B7B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF672B22879200CD4B7B /* AccountViewModel.swift */; };
 		491EEF6B2B22894900CD4B7B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6A2B22894900CD4B7B /* String+Ext.swift */; };
+		491EEF6D2B228D6400CD4B7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6C2B228D6400CD4B7B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		491EEF652B22806900CD4B7B /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		491EEF672B22879200CD4B7B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		491EEF6A2B22894900CD4B7B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		491EEF6C2B228D6400CD4B7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				491EEF432B2256C100CD4B7B /* Appetizer.swift */,
+				491EEF6C2B228D6400CD4B7B /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				491EEF422B22527000CD4B7B /* OrderView.swift in Sources */,
 				491EEF682B22879200CD4B7B /* AccountViewModel.swift in Sources */,
 				491EEF662B22806900CD4B7B /* XDismissButton.swift in Sources */,
+				491EEF6D2B228D6400CD4B7B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
