@@ -23,6 +23,8 @@
 		491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF4F2B226C8200CD4B7B /* LoadingView.swift */; };
 		491EEF522B22723900CD4B7B /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF512B22723900CD4B7B /* RemoteImage.swift */; };
 		491EEF612B22784C00CD4B7B /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF602B22784C00CD4B7B /* AppetizerDetailView.swift */; };
+		491EEF642B227F9100CD4B7B /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF632B227F9100CD4B7B /* APButton.swift */; };
+		491EEF662B22806900CD4B7B /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF652B22806900CD4B7B /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		491EEF4F2B226C8200CD4B7B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		491EEF512B22723900CD4B7B /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		491EEF602B22784C00CD4B7B /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		491EEF632B227F9100CD4B7B /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		491EEF652B22806900CD4B7B /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,7 @@
 		491EEF5C2B22772100CD4B7B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				491EEF622B227F8800CD4B7B /* Buttons */,
 				491EEF5F2B22773500CD4B7B /* Image */,
 				491EEF5E2B22772F00CD4B7B /* Cells */,
 				491EEF5D2B22772600CD4B7B /* UIKit Components */,
@@ -197,6 +202,15 @@
 				491EEF512B22723900CD4B7B /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		491EEF622B227F8800CD4B7B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				491EEF632B227F9100CD4B7B /* APButton.swift */,
+				491EEF652B22806900CD4B7B /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +286,7 @@
 				491EEF442B2256C100CD4B7B /* Appetizer.swift in Sources */,
 				491EEF4A2B225FE600CD4B7B /* APError.swift in Sources */,
 				491EEF462B225E1500CD4B7B /* AppetizerListCell.swift in Sources */,
+				491EEF642B227F9100CD4B7B /* APButton.swift in Sources */,
 				491EEF4C2B22661D00CD4B7B /* AppetizerListViewModel.swift in Sources */,
 				491EEF402B22526900CD4B7B /* AccountView.swift in Sources */,
 				491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */,
@@ -283,6 +298,7 @@
 				491EEF4E2B22689C00CD4B7B /* Alert.swift in Sources */,
 				491EEF3E2B22526100CD4B7B /* AppetizerListView.swift in Sources */,
 				491EEF422B22527000CD4B7B /* OrderView.swift in Sources */,
+				491EEF662B22806900CD4B7B /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
