@@ -46,7 +46,7 @@ struct AppetizerDetailView: View {
             } label: {
                 Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
-            .modifier(StandardButtonStyle())
+            .standardButtonStyle()
             .padding(.bottom, 30)
         }
         .frame(width: 300, height: 525)
