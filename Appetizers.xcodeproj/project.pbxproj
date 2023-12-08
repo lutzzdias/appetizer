@@ -28,6 +28,7 @@
 		491EEF682B22879200CD4B7B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF672B22879200CD4B7B /* AccountViewModel.swift */; };
 		491EEF6B2B22894900CD4B7B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6A2B22894900CD4B7B /* String+Ext.swift */; };
 		491EEF6D2B228D6400CD4B7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6C2B228D6400CD4B7B /* User.swift */; };
+		491EEF702B2297EE00CD4B7B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6F2B2297EE00CD4B7B /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		491EEF672B22879200CD4B7B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		491EEF6A2B22894900CD4B7B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		491EEF6C2B228D6400CD4B7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		491EEF6F2B2297EE00CD4B7B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		491EEF5C2B22772100CD4B7B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				491EEF6E2B2297DF00CD4B7B /* Empty States */,
 				491EEF622B227F8800CD4B7B /* Buttons */,
 				491EEF5F2B22773500CD4B7B /* Image */,
 				491EEF5E2B22772F00CD4B7B /* Cells */,
@@ -228,6 +231,14 @@
 				491EEF6A2B22894900CD4B7B /* String+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		491EEF6E2B2297DF00CD4B7B /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				491EEF6F2B2297EE00CD4B7B /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 				491EEF642B227F9100CD4B7B /* APButton.swift in Sources */,
 				491EEF4C2B22661D00CD4B7B /* AppetizerListViewModel.swift in Sources */,
 				491EEF402B22526900CD4B7B /* AccountView.swift in Sources */,
+				491EEF702B2297EE00CD4B7B /* EmptyState.swift in Sources */,
 				491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */,
 				491EEF522B22723900CD4B7B /* RemoteImage.swift in Sources */,
 				491EEF322B2251FE00CD4B7B /* AppetizerTabView.swift in Sources */,
