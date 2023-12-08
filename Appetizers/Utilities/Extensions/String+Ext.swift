@@ -22,7 +22,7 @@ extension String {
             "@"
             OneOrMore {
                 CharacterClass(
-                    .anyOf(".-"),
+                    .anyOf("-"),
                     ("A"..."Z"),
                     ("a"..."z"),
                     ("0"..."9")
