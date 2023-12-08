@@ -194,17 +194,17 @@
 				491EEF622B227F8800CD4B7B /* Buttons */,
 				491EEF5F2B22773500CD4B7B /* Image */,
 				491EEF5E2B22772F00CD4B7B /* Cells */,
-				491EEF5D2B22772600CD4B7B /* UIKit Components */,
+				491EEF5D2B22772600CD4B7B /* Loading */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		491EEF5D2B22772600CD4B7B /* UIKit Components */ = {
+		491EEF5D2B22772600CD4B7B /* Loading */ = {
 			isa = PBXGroup;
 			children = (
 				491EEF4F2B226C8200CD4B7B /* LoadingView.swift */,
 			);
-			path = "UIKit Components";
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		491EEF5E2B22772F00CD4B7B /* Cells */ = {
