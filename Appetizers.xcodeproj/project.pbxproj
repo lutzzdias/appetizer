@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4909FB592B22A7E40099EAC7 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FB582B22A7E40099EAC7 /* CustomModifiers.swift */; };
+		4909FB5B2B22B4B20099EAC7 /* Button+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FB5A2B22B4B20099EAC7 /* Button+Ext.swift */; };
+		4909FB5D2B22B5460099EAC7 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909FB5C2B22B5460099EAC7 /* Image+Ext.swift */; };
 		491EEF302B2251FE00CD4B7B /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF2F2B2251FE00CD4B7B /* AppetizersApp.swift */; };
 		491EEF322B2251FE00CD4B7B /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF312B2251FE00CD4B7B /* AppetizerTabView.swift */; };
 		491EEF342B2251FF00CD4B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491EEF332B2251FF00CD4B7B /* Assets.xcassets */; };
@@ -34,7 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4909FB582B22A7E40099EAC7 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		4909FB5A2B22B4B20099EAC7 /* Button+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Ext.swift"; sourceTree = "<group>"; };
+		4909FB5C2B22B5460099EAC7 /* Image+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Ext.swift"; sourceTree = "<group>"; };
 		491EEF2C2B2251FE00CD4B7B /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491EEF2F2B2251FE00CD4B7B /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		491EEF312B2251FE00CD4B7B /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -193,7 +195,6 @@
 				491EEF5F2B22773500CD4B7B /* Image */,
 				491EEF5E2B22772F00CD4B7B /* Cells */,
 				491EEF5D2B22772600CD4B7B /* UIKit Components */,
-				4909FB582B22A7E40099EAC7 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				491EEF6A2B22894900CD4B7B /* String+Ext.swift */,
+				4909FB5A2B22B4B20099EAC7 /* Button+Ext.swift */,
+				4909FB5C2B22B5460099EAC7 /* Image+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,13 +329,14 @@
 				491EEF722B229B2200CD4B7B /* Order.swift in Sources */,
 				491EEF402B22526900CD4B7B /* AccountView.swift in Sources */,
 				491EEF702B2297EE00CD4B7B /* EmptyState.swift in Sources */,
-				4909FB592B22A7E40099EAC7 /* CustomModifiers.swift in Sources */,
 				491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */,
 				491EEF522B22723900CD4B7B /* RemoteImage.swift in Sources */,
+				4909FB5B2B22B4B20099EAC7 /* Button+Ext.swift in Sources */,
 				491EEF322B2251FE00CD4B7B /* AppetizerTabView.swift in Sources */,
 				491EEF612B22784C00CD4B7B /* AppetizerDetailView.swift in Sources */,
 				491EEF482B225F0500CD4B7B /* NetworkManager.swift in Sources */,
 				491EEF302B2251FE00CD4B7B /* AppetizersApp.swift in Sources */,
+				4909FB5D2B22B5460099EAC7 /* Image+Ext.swift in Sources */,
 				491EEF4E2B22689C00CD4B7B /* Alert.swift in Sources */,
 				491EEF3E2B22526100CD4B7B /* AppetizerListView.swift in Sources */,
 				491EEF422B22527000CD4B7B /* OrderView.swift in Sources */,
