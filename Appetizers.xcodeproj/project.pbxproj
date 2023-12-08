@@ -29,6 +29,7 @@
 		491EEF6B2B22894900CD4B7B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6A2B22894900CD4B7B /* String+Ext.swift */; };
 		491EEF6D2B228D6400CD4B7B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6C2B228D6400CD4B7B /* User.swift */; };
 		491EEF702B2297EE00CD4B7B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF6F2B2297EE00CD4B7B /* EmptyState.swift */; };
+		491EEF722B229B2200CD4B7B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EEF712B229B2200CD4B7B /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		491EEF6A2B22894900CD4B7B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		491EEF6C2B228D6400CD4B7B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		491EEF6F2B2297EE00CD4B7B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		491EEF712B229B2200CD4B7B /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				491EEF432B2256C100CD4B7B /* Appetizer.swift */,
 				491EEF6C2B228D6400CD4B7B /* User.swift */,
+				491EEF712B229B2200CD4B7B /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				491EEF462B225E1500CD4B7B /* AppetizerListCell.swift in Sources */,
 				491EEF642B227F9100CD4B7B /* APButton.swift in Sources */,
 				491EEF4C2B22661D00CD4B7B /* AppetizerListViewModel.swift in Sources */,
+				491EEF722B229B2200CD4B7B /* Order.swift in Sources */,
 				491EEF402B22526900CD4B7B /* AccountView.swift in Sources */,
 				491EEF702B2297EE00CD4B7B /* EmptyState.swift in Sources */,
 				491EEF502B226C8200CD4B7B /* LoadingView.swift in Sources */,
